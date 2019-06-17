@@ -15,6 +15,6 @@ public class ComputerViewHolder extends RecyclerView.ViewHolder {
     public ComputerViewHolder(@NonNull View itemView) {
         super(itemView);
         relativeLayout = itemView.findViewById(R.id.layout);
-
+        
     }
 }
