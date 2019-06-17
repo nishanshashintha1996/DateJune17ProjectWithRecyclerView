@@ -15,6 +15,10 @@ public class ComputerViewHolder extends RecyclerView.ViewHolder {
     public ComputerViewHolder(@NonNull View itemView) {
         super(itemView);
         relativeLayout = itemView.findViewById(R.id.layout);
-        
+        image = itemView.findViewById(R.id.img);
+        title = itemView.findViewById(R.id.title_view);
+        description = itemView.findViewById(R.id.description_view);
+        rate = itemView.findViewById(R.id.rate_view);
+        price = itemView.findViewById(R.id.price_view);
     }
 }
